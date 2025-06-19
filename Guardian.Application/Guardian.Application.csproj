@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Guardian.Domain\Guardian.Domain.csproj" />
+    <ProjectReference Include="..\Guardian.Infrastructure\Guardian.Infrastructure.csproj" />
+    <ProjectReference Include="..\Guardian.Repository\Guardian.Repository.csproj" />
+  </ItemGroup>
+
+</Project>
