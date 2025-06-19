@@ -1,0 +1,6 @@
+**/bin/
+**/obj/
+**.avi
+**.sql
+/Guardian.Client/**
+/publish
